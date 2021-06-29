@@ -1,0 +1,9 @@
+__pycache__
+node_modules/
+web-ext/extension/dist
+yarn-error.log
+.vscode
+staticfiles
+web-ext-artifacts/
+backend/.env
+cookie.py

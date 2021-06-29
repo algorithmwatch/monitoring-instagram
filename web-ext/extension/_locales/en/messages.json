@@ -1,0 +1,138 @@
+{
+  "extension_name": {
+    "message": "Monitoring Instagram",
+    "description": "Name of the extension. max 45 characters max"
+  },
+  "extension_description": {
+    "message": "Monitoring Instagram is a research project carried out by AlgorithmWatch. It let us understand how Instagram's algorithm works.",
+    "description": "Description of the extension. 132 characters max"
+  },
+  "extension_browserActionTitle": {
+    "message": "Monitoring Instagram",
+    "description": "Title of the browser action button."
+  },
+  "dashboard_subtitle": {
+    "message": "Settings",
+    "description": "Displayed on the dashboard just under the extension title"
+  },
+  "dashboard_inactive_project": {
+    "message": "Many thanks for your contribution to the \"Monitoring Instagram\" project. The data collection you took part in, **$PROJECT_NAME$**, is now over. AlgorithmWatch and their media partners are reviewing the data you and others contributed to better understand how Instagram's algorithms work.\n\nYou can now remove the browser plug-in (see here how to do that in <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.google.com/chrome_webstore/answer/2664769?hl=en\">Chrome</a> or <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons\">Firefox</a>).",
+    "description": "Displayed after having participated to a project that is no longer active.",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction": {
+    "message": "### Hello,\nThank you for installing the Monitoring Instagram extension. With it, we want to **understand how the Instagram newsfeed works**.",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_currentProject": {
+    "message": "You are about to participate in the project \"$PROJECT_NAME$\"",
+    "description": "Tell the current project on the dasboard. [Markdown accepted]",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction_projectDescription_title": {
+    "message": "Project description",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements": {
+    "message": "First, please ensure you are logged-in to $IG_LINK$ and that you follow these 3 Instagram accounts:",
+    "description": "",
+    "placeholders": {
+      "ig_link": {
+        "content": "$1",
+        "example": "<a href=...>Instagram</a>"
+      }
+    }
+  },
+  "dashboard_introduction_requirements_openAccountInNewTabAction": {
+    "message": "open in new tab",
+    "description": "Displayed beside the the account name, invite the user to open the IG account in a new tab"
+  },
+  "dashboard_introduction_requirements_inviteToAcceptTheTOS": {
+    "message": "**Once you have done that**, click the button below:",
+    "description": "Invite user to click the button 'I understand...' bellow. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements_alertAboutFBContainerPluggin": {
+    "message": "This extension doesn't work when Facebook container extension is running. Please disable it before you start. (If you haven't installed the Facebook container extension, you don't have to do anything.)",
+    "description": "Alert the user that our extension is incompatible with Mozilla Facebook container pluggin."
+  },
+  "dashboard_introduction_requirements_acceptTOSLabelButton": {
+    "message": "I understand the experiment and would like to participate",
+    "description": "Button's label the user must click to start the monitoring"
+  },
+  "dashboard_changeProject_buttonLabel": {
+    "message": "Change project",
+    "description": "Button that shows the projects list and allow the user to change the current project"
+  },
+  "dashboard_changeProject_projectsListTitle": {
+    "message": "Projects",
+    "description": "Title of the projects list"
+  },
+  "dashboard_changeProject_saveButton": {
+    "message": "Save",
+    "description": "Save the selected project as the new active project"
+  },
+  "dashboard_changeProject_cancelButton": {
+    "message": "Cancel",
+    "description": "Cancel the project selection and close the projects list"
+  },
+  "dashboard_thankYou": {
+    "message": "Thank you for taking part in the Monitoring Instagram project. Provided all indicators below are green, you can now close this tab.\n\nYou don't need to use Instagram in any particular way for the experiment to function. Feel free to keep using the IG mobile app, or to keep not using it.",
+    "description": "Message displayed in the dashboard when the monitoring is running. [Markdown accepted]"
+  },
+  "dashboard_loginStatus_refreshButtonLabel": {
+    "message": "Refresh"
+  },
+  "dashboard_loginStatus_refreshingButtonLabel": {
+    "message": "Refreshing"
+  },
+  "dashboard_loginStatus_title": {
+    "message": "Login status"
+  },
+  "dashboard_loginStatus_success": {
+    "message": "You are logged in."
+  },
+  "dashboard_loginStatus_error": {
+    "message": "You are logged out! Please connect to Instagram."
+  },
+  "dashboard_loginStatus_error_actionButtonLabel": {
+    "message": "Go to Instagram"
+  },
+  "dashboard_followingStatus_title": {
+    "message": "Following"
+  },
+  "dashboard_followingStatus_retrying": {
+    "message": "Retrying ($RETRY_COUNT$)",
+    "placeholders": {
+      "retry_count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "dashboard_followingStatus_success": {
+    "message": "You are following all these accounts",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_followingStatus_error": {
+    "message": "It seems that you are not following all the accounts below.\n\nPlease make sure that you are following all of them and click \"Refresh\" above.",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_footer": {
+    "message": "##### How it works\n\nThe extension monitors your Instagram feed automatically. Using this information, we will be able to tell if the algorithms that decide what users see give priority to certain type of content and if they censor other types of content.\n\nThe results of the investigation will be published by [AlgorithmWatch](https://algorithmwatch.org/) and their media partners.\n\n##### Leaving the project\n\nJust uninstall the extension to stop the data collection. You can also unfollow any of the 3 accounts that you followed for the experiment to stop the data collection.\n\n##### Privacy\n\nThe extension only records data about some of the accounts you follow and the date and time at which content from certain accounts appear in your newsfeed. Your user name is pseudonymized using a one-way cryptographic hash function, so that it is impossible to identify you.\n\nThe data will only ever be used for the journalistic investigation \"Monitoring Instagram\" and will never be sold or shared with any third-parties.\n\n##### Contact\n\nShould you have any question about this project, contact Nicolas Kayser-Bril, reporter at AlgorithmWatch, at [nkb@algorithmwatch.org](mailto:nkb@algorithmwatch.org)",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_doNotClosePage_body": {
+    "message": "We're collecting anonymous information from your instagram feed.\n\nPlease don't close this window and don't use it for something else. But You can minimize it.",
+    "description": "Diplayed in a tab of a new window we open for the monitoring purpose. [Markdown accepted]"
+  }
+}

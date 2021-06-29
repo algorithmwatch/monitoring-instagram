@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "2.11",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/eye-black-16.png",
+    "32": "icons/eye-black-32.png",
+    "48": "icons/eye-black-48.png",
+    "96": "icons/eye-black-96.png"
+  },
+  "background": {
+    "scripts": ["dist/background.js"]
+  },
+  "options_ui": {
+    "page": "dashboard/main.html",
+    "browser_style": false
+  },
+  "browser_action": {
+    "default_title": "__MSG_extension_browserActionTitle__",
+    "default_icon": {
+      "16": "icons/eye-white-16.png",
+      "32": "icons/eye-white-32.png"
+    },
+    "theme_icons": [
+      {
+        "light": "icons/eye-white-16.png",
+        "dark": "icons/eye-black-16.png",
+        "size": 16
+      },
+      {
+        "light": "icons/eye-white-32.png",
+        "dark": "icons/eye-black-32.png",
+        "size": 32
+      }
+    ]
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.instagram.com/*"
+  ],
+  "web_accessible_resources": [
+    "dist/resource-retreive-ig-user-data.js",
+    "dist/resource-retreive-donor-is-following.js"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://monitoring-ig.herokuapp.com/addon-updates.json"
+    }
+  }
+}

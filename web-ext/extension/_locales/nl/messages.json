@@ -1,0 +1,138 @@
+{
+  "extension_name": {
+    "message": "Monitoring Instagram",
+    "description": "Name of the extension. max 45 characters max"
+  },
+  "extension_description": {
+    "message": "Monitoring Instagram is een onderzoek uitgevoerd door AlgorithmWatch. Het laat ons begrijpen hoe het algoritme van Instagram werkt.",
+    "description": "Description of the extension. 132 characters max"
+  },
+  "extension_browserActionTitle": {
+    "message": "Monitoring Instagram",
+    "description": "Title of the browser action button."
+  },
+  "dashboard_subtitle": {
+    "message": "Instellingen",
+    "description": "Displayed on the dashboard just under the extension title"
+  },
+  "dashboard_inactive_project": {
+    "message": "Many thanks for your contribution to the \"Monitoring Instagram\" project. The data collection you took part in, **$PROJECT_NAME$**, is now over. AlgorithmWatch and their media partners are reviewing the data you and others contributed to better understand how Instagram's algorithms work.\n\nYou can now remove the browser plug-in (see here how to do that in <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.google.com/chrome_webstore/answer/2664769?hl=en\">Chrome</a> or <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons\">Firefox</a>).",
+    "description": "Displayed after having participated to a project that is no longer active.",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction": {
+    "message": "### Hallo,\nBedankt voor het installeren van de Monitoring Instagram-extensie. Hiermee willen we **begrijpen hoe de Instagram-nieuwsfeed werkt**.",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_currentProject": {
+    "message": "U staat op het punt deel te nemen aan het project \"$PROJECT_NAME$\"",
+    "description": "Tell the current project on the dasboard. [Markdown accepted]",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction_projectDescription_title": {
+    "message": "Projectbeschrijving",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements": {
+    "message": "Zorg er eerst voor dat je bent ingelogd op $IG_LINK$ en dat je deze 3 Instagram-accounts volgt:",
+    "description": "",
+    "placeholders": {
+      "ig_link": {
+        "content": "$1",
+        "example": "<a href=...>Instagram</a>"
+      }
+    }
+  },
+  "dashboard_introduction_requirements_openAccountInNewTabAction": {
+    "message": "openen in nieuw tabblad",
+    "description": "Displayed beside the the account name, invite the user to open the IG account in a new tab"
+  },
+  "dashboard_introduction_requirements_inviteToAcceptTheTOS": {
+    "message": "**Als je dat eenmaal hebt gedaan**, klik op de onderstaande knop:",
+    "description": "Invite user to click the button 'I understand...' bellow. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements_alertAboutFBContainerPluggin": {
+    "message": "Deze extensie werkt niet als de 'Facebook-Container' extensie actief is. Schakel het uit voordat je begint. (Als u de extensie voor Facebook-containers niet hebt geïnstalleerd, hoeft u niets te doen.)",
+    "description": "Alert the user that our extension is incompatible with Mozilla Facebook container pluggin."
+  },
+  "dashboard_introduction_requirements_acceptTOSLabelButton": {
+    "message": "Ik begrijp het experiment en wil graag meedoen",
+    "description": "Button's label the user must click to start the monitoring"
+  },
+  "dashboard_changeProject_buttonLabel": {
+    "message": "Verander project",
+    "description": "Button that shows the projects list and allow the user to change the current project"
+  },
+  "dashboard_changeProject_projectsListTitle": {
+    "message": "Projecten",
+    "description": "Title of the projects list"
+  },
+  "dashboard_changeProject_saveButton": {
+    "message": "Opslaan",
+    "description": "Save the selected project as the new active project"
+  },
+  "dashboard_changeProject_cancelButton": {
+    "message": "Annuleren",
+    "description": "Cancel the project selection and close the projects list"
+  },
+  "dashboard_thankYou": {
+    "message": "Bedankt voor je deelname aan het Monitoring Instagram-project. Als alle onderstaande indicatoren groen zijn, kunt u dit tabblad nu sluiten.\n\nJe hoeft Instagram niet op een bepaalde manier te gebruiken om het experiment te laten werken. Voel je vrij om de IG mobiele app te blijven gebruiken, of om deze niet te blijven gebruiken.",
+    "description": "Message displayed in the dashboard when the monitoring is running. [Markdown accepted]"
+  },
+  "dashboard_loginStatus_refreshButtonLabel": {
+    "message": "Vernieuwen"
+  },
+  "dashboard_loginStatus_refreshingButtonLabel": {
+    "message": "Vernieuwen"
+  },
+  "dashboard_loginStatus_title": {
+    "message": "Inlogstatus"
+  },
+  "dashboard_loginStatus_success": {
+    "message": "Je bent ingelogd."
+  },
+  "dashboard_loginStatus_error": {
+    "message": "Je bent uitgelogd! Maak verbinding met Instagram."
+  },
+  "dashboard_loginStatus_error_actionButtonLabel": {
+    "message": "Ga naar Instagram"
+  },
+  "dashboard_followingStatus_title": {
+    "message": "Following"
+  },
+  "dashboard_followingStatus_retrying": {
+    "message": "Opnieuw proberen ($RETRY_COUNT$)",
+    "placeholders": {
+      "retry_count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "dashboard_followingStatus_success": {
+    "message": "Je volgt al deze accounts",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_followingStatus_error": {
+    "message": "Het lijkt erop dat u niet alle onderstaande accounts volgt.\n\nZorg ervoor dat u ze allemaal volgt en klik hierboven op \"Vernieuwen\".",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_footer": {
+    "message": "##### Hoe het werkt\n\nDe extensie controleert automatisch uw Instagram-feed. Aan de hand van deze informatie kunnen we zien of de algoritmen die bepalen wat gebruikers zien prioriteit geven aan een bepaald type inhoud en of ze andere soorten inhoud censureren.\n\nDe resultaten van het onderzoek worden gepubliceerd door [AlgorithmWatch](https://algorithmwatch.org/) en hun mediapartners.\n\n##### Het project verlaten\n\nVerwijder gewoon de extensie om de gegevensverzameling te stoppen. U kunt ook de 3 accounts die u voor het experiment hebt gevolgd, niet meer volgen om de gegevensverzameling te stoppen.\n\n##### Privacy\n\nDe extensie registreert alleen gegevens over enkele van de accounts die u volgt en de datum en tijd waarop inhoud van bepaalde accounts in uw nieuwsfeed verschijnt. Uw gebruikersnaam wordt gepseudonimiseerd met behulp van een eenrichtings cryptografische hashfunctie, zodat het onmogelijk is om u te identificeren.\n\nDe gegevens worden uitsluitend gebruikt voor journalistieke onderzoeken en worden nooit verkocht of gedeeld met derden.\n\n##### Contact\n\nAls je vragen hebt over dit project, neem dan contact op met Nicolas Kayser-Bril, journalist bij AlgorithmWatch, via [nkb@algorithmwatch.org](mailto:nkb@algorithmwatch.org)",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_doNotClosePage_body": {
+    "message": "We verzamelen anonieme informatie uit uw Instagram-feed.\n\nSluit dit venster niet en gebruik het niet voor iets anders. Maar je kunt het minimaliseren.",
+    "description": "Diplayed in a tab of a new window we open for the monitoring purpose. [Markdown accepted]"
+  }
+}

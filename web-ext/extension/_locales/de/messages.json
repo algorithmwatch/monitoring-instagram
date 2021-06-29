@@ -1,0 +1,138 @@
+{
+  "extension_name": {
+    "message": "#Wahlfilter",
+    "description": "Name of the extension. max 45 characters max"
+  },
+  "extension_description": {
+    "message": "#Wahlfilter ist eine Recherche von AlgorithmWatch und der SZ. Sie helfen uns damit, Einblicke zu gewinnen, wie Insta Posts auswählt.",
+    "description": "Description of the extension. 132 characters max"
+  },
+  "extension_browserActionTitle": {
+    "message": "#Wahlfilter - wie verzerrt ist Ihre Instagram-Timeline?",
+    "description": "Title of the browser action button."
+  },
+  "dashboard_subtitle": {
+    "message": "Einstellungen",
+    "description": "Displayed on the dashboard just under the extension title"
+  },
+  "dashboard_inactive_project": {
+    "message": "Vielen Dank dafür, dass Sie am Projekt \"Monitoring Instagram\" teilgenommen haben. Die Datensammlung, an dem Sie teilgenommen haben, **$PROJECT_NAME$**, ist jetzt vollendet. AlgorithmWatch und seine Medienpartner überprüfen die Daten, die Sie und andere beigetragen haben, um besser zu verstehen, wie die Algorithmen von Instagram funktionieren. \n\nSie können jetzt die Browser-Erweiterung entfernen. (Hier finden Sie eine Einleitung für <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.google.com/chrome_webstore/answer/2664769?hl=en\">Chrome</a> oder <a target=\"_blank\" rel=\"noreferrer\" href=\"https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons\">Firefox</a>).",
+    "description": "Displayed after having participated to a project that is no longer active.",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction": {
+    "message": "### Hallo,\nund vielen Dank, dass Sie das Projekt #Wahlfilter unterstützen möchten und die Browser-Erweiterung installiert haben. Sie helfen uns damit, Einblicke zu gewinnen, wie Instagram Inhalte auswählt und gewichtet.",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_currentProject": {
+    "message": "Sie nehmen am folgenden Projekt teil: \"$PROJECT_NAME$\"",
+    "description": "Tell the current project on the dasboard. [Markdown accepted]",
+    "placeholders": {
+      "project_name": {
+        "content": "$1",
+        "example": "Undressing Instagram"
+      }
+    }
+  },
+  "dashboard_introduction_projectDescription_title": {
+    "message": "Beschreibung des Projekts",
+    "description": "Introduction text on the dasboard. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements": {
+    "message": "So machen Sie mit:\n\nVergewissern Sie sich bitte zuerst, dass Sie bei $IG_LINK$ angemeldet sind, und abonnieren Sie dann die drei Instagram-Accounts, die Ihnen das Plugin nach dem Zufallsprinzip vorschlägt. Bitte folgen Sie diesen drei Accounts und aktualisieren Sie diese Seite erst, nachdem sie ihnen gefolgt sind:",
+    "description": "",
+    "placeholders": {
+      "ig_link": {
+        "content": "$1",
+        "example": "<a href=...>Instagram</a>"
+      }
+    }
+  },
+  "dashboard_introduction_requirements_openAccountInNewTabAction": {
+    "message": "in einem neuen Tab öffnen",
+    "description": "Displayed beside the the account name, invite the user to open the IG account in a new tab"
+  },
+  "dashboard_introduction_requirements_inviteToAcceptTheTOS": {
+    "message": "Danach klicken Sie bitte auf diesen Button, um beim Crowdsourcing-Projekt mitzumachen:",
+    "description": "Invite user to click the button 'I understand...' below. [Markdown accepted]"
+  },
+  "dashboard_introduction_requirements_alertAboutFBContainerPluggin": {
+    "message": "Diese Erweiterung funktioniert nicht mit der Facebook-Container-Erweiterung im Firefox. Falls Sie die Facebook-Container-Erweiterung installiert haben, deaktivieren Sie dieses Mozilla-Addon bitte, bevor Sie weitermachen.",
+    "description": "Alert the user that our extension is incompatible with Mozilla Facebook container pluggin."
+  },
+  "dashboard_introduction_requirements_acceptTOSLabelButton": {
+    "message": "Ich verstehe das Projekt und möchte teilnehmen",
+    "description": "Button's label the user must click to start the monitoring"
+  },
+  "dashboard_changeProject_buttonLabel": {
+    "message": "Projekt ändern",
+    "description": "Button that shows the projects list and allow the user to change the current project"
+  },
+  "dashboard_changeProject_projectsListTitle": {
+    "message": "Projekte",
+    "description": "Title of the projects list"
+  },
+  "dashboard_changeProject_saveButton": {
+    "message": "Speichern",
+    "description": "Save the selected project as the new active project"
+  },
+  "dashboard_changeProject_cancelButton": {
+    "message": "Abbrechen",
+    "description": "Cancel the project selection and close the projects list"
+  },
+  "dashboard_thankYou": {
+    "message": "Vielen Dank, dass Sie am Projekt #Wahlfilter - wie verzerrt ist Ihre Instagram-Timeline? teilnehmen. Sofern der Login-Status grün hinterlegt ist und die Accounts mit grünen Häkchen markiert sind, können Sie diesen Tab jetzt schließen.\n\nSie müssen Instagram nicht auf eine bestimmte Weise nutzen, damit das Experiment funktioniert. Verwenden Sie Ihre Instagram-App auf dem Handy einfach weiter wie bisher.",
+    "description": "Message displayed in the dashboard when the monitoring is running. [Markdown accepted]"
+  },
+  "dashboard_loginStatus_refreshButtonLabel": {
+    "message": "Aktualisieren"
+  },
+  "dashboard_loginStatus_refreshingButtonLabel": {
+    "message": "Aktualisierung läuft"
+  },
+  "dashboard_loginStatus_title": {
+    "message": "Login-Status"
+  },
+  "dashboard_loginStatus_success": {
+    "message": "Sie sind angemeldet."
+  },
+  "dashboard_loginStatus_error": {
+    "message": "Sie sind nicht angemeldet. Bitte loggen Sie sich bei Instagram ein."
+  },
+  "dashboard_loginStatus_error_actionButtonLabel": {
+    "message": "Zu Instagram"
+  },
+  "dashboard_followingStatus_title": {
+    "message": "Following"
+  },
+  "dashboard_followingStatus_retrying": {
+    "message": "Neuer Versuch ($RETRY_COUNT$)",
+    "placeholders": {
+      "retry_count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "dashboard_followingStatus_success": {
+    "message": "Sie haben die folgende Accounts abonniert",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_followingStatus_error": {
+    "message": "Noch haben Sie nicht alle unten aufgeführte Accounts abonniert. Bitte folgen Sie allen drei vorgeschlagenen Politiker*innen oder Parteien und klicken Sie dann oben auf \"Aktualisieren\".",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_footer": {
+    "message": "##### Wie es funktioniert \n\nMit dem Plugin/Add-on teilen Sie Informationen aus Ihrem Instagram-Feed und Ihre 'Explore'-Seite automatisch mit AlgorithmWatch. Anhand dieser Informationen werden wir versuchen, festzustellen, ob der Instagram-Algorithmus bestimmte Arten von Inhalten oder bestimmte Nutzerinnen und Nutzer bevorzugt, und ob er andere zensiert.\n\nDie Ergebnisse der Untersuchung werden von AlgorithmWatch und der SZ veröffentlicht.\n\n##### Nicht mehr mitmachen \n\nDeinstallieren Sie einfach das Plugin, wenn Sie keine Daten mehr spenden wollen. Sie können auch den drei Accounts, die Sie im Rahmen des Projektes abonniert haben, einfach nicht mehr folgen, um die Datenerfassung zu beenden. \n\n##### Privatsphäre \n\nDas Plugin zeichnet nur Daten zu einigen der Accounts auf, die Sie abonniert haben, sowie Datum und Uhrzeit, zu der Inhalte bestimmter Accounts in Ihrem Newsfeed angezeigt werden. Die erste Bilder oder Videos Ihrer ‘Explore’-Seite werden auch aufgezeichnet. Ihr Benutzername wird mithilfe einer kryptografischen Einweg-Hash-Funktion pseudonymisiert, sodass Sie selbst nicht identifiziert werden können. So werden auch keine personenbezogenen Daten gespeichert - sondern nur auf den Instagram-Algorithmus selbst bezogene Informationen, die für das Projekt relevant sind.\n\nDie Daten werden ausschließlich für die journalistische Untersuchung #Wahlfilter verwendet, von AlgorithmWatch und der SZ ausgewertet und nicht an Dritte weitergegeben.\n\n##### Kontakt\n\nWenn Sie Fragen zu diesem Projekt haben, wenden Sie sich an Nicolas Kayser-Bril, Reporter bei AlgorithmWatch, unter [nkb@algorithmwatch.org](mailto:nkb@algorithmwatch.org)",
+    "description": "[Markdown accepted]"
+  },
+  "dashboard_doNotClosePage_body": {
+    "message": "Wir sammeln anonyme Informationen aus Ihrem Instagram-Feed.\n\nBitte schließen Sie dieses Fenster nicht und verwenden Sie es nicht für etwas anderes. Aber Sie können es minimieren.",
+    "description": "Diplayed in a tab of a new window we open for the monitoring purpose. [Markdown accepted]"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Monitoring IG",
+  "description": "Deploy on Heroku the backend bhind the Monitorin-IG web extension",
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "IG_USERNAME_SALT_SECRET_KEY": {
+      "generator": "secret"
+    },
+    "DEBUG": "false",
+    "DJANGO_SETTINGS_MODULE": "undressing_ig.settings_heroku",
+    "PROJECT_PATH": "backend",
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    },
+    "GOOGLE_CLOUD_API_KEY": {
+      "required": true
+    },
+    "INSTAGRAM_SESSION_COOKIE": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
